@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.6.1.0" clr-version="2.0.50727.5485" start-time="2017-05-13 10:55:08Z" end-time="2017-05-13 10:55:11Z" duration="3.276723">
+  <command-line><![CDATA[D:\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console  D:\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll --result=TestResult.xml]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="RESTAPITest.dll" fullname="D:\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-05-13 10:55:08Z" end-time="2017-05-13 10:55:11Z" duration="2.342457" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\RESTBDD" machine-name="LT039831" user="GILLH" user-domain="AVIVAGROUP" culture="en-GB" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\RESTBDD" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12384" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="RESTAPITest" fullname="RESTAPITest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-05-13 10:55:08Z" end-time="2017-05-13 10:55:11Z" duration="2.319539" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="0-1000" name="PensionPlanFeature" fullname="RESTAPITest.PensionPlanFeature" classname="RESTAPITest.PensionPlanFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-05-13 10:55:08Z" end-time="2017-05-13 10:55:11Z" duration="2.314378" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <properties>
+          <property name="Description" value="Pension Plan" />
+        </properties>
+        <test-case id="0-1001" name="ValidatingPensionPlan" fullname="RESTAPITest.PensionPlanFeature.ValidatingPensionPlan" methodname="ValidatingPensionPlan" classname="RESTAPITest.PensionPlanFeature" runstate="Runnable" seed="1445790274" result="Passed" start-time="2017-05-13 10:55:09Z" end-time="2017-05-13 10:55:11Z" duration="1.915525" asserts="1">
+          <properties>
+            <property name="Category" value="mytag" />
+            <property name="Description" value="Validating pension plan" />
+          </properties>
+          <output><![CDATA[Given I have pension plan with Aviva
+-> done: PensionPlanSteps.GivenIHavePensionPlanWithAviva() (1.5s)
+When I check my pension plan
+System.Collections.Generic.List`1[RESTAPITest.PlanValuation]
+-> done: PensionPlanSteps.WhenITryToCheckMyPensionPlan() (0.3s)
+Then I can see my pension plan
+-> done: PensionPlanSteps.ThenICanSeeMyPensionPlan() (0.0s)
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

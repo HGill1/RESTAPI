@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="12" result="Passed" total="4" passed="1" failed="0" inconclusive="3" skipped="0" asserts="1" engine-version="3.6.1.0" clr-version="2.0.50727.8669" start-time="2017-08-08 09:08:22Z" end-time="2017-08-08 09:08:26Z" duration="3.971843">
+  <command-line><![CDATA[D:\backup\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console  D:\backup\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll --where cat==Alexa --result="D:\backup\RESTBDD\TestResult.xml;format=nunit3"]]></command-line>
+  <filter>
+    <cat>Alexa</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1017" name="RESTAPITest.dll" fullname="D:\backup\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:26Z" duration="3.073312" total="4" passed="1" failed="0" warnings="0" inconclusive="3" skipped="0" asserts="1">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\backup\RESTBDD" machine-name="LT034613" user="GILLH" user-domain="AVIVAGROUP" culture="en-GB" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\backup\RESTBDD" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="2864" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1018" name="RESTAPITest" fullname="RESTAPITest" runstate="Runnable" testcasecount="12" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:26Z" duration="3.050131" total="4" passed="1" failed="0" warnings="0" inconclusive="3" skipped="0" asserts="1">
+      <properties />
+      <test-suite type="TestSuite" id="0-1019" name="Stories" fullname="RESTAPITest.Stories" runstate="Runnable" testcasecount="12" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:26Z" duration="3.048132" total="4" passed="1" failed="0" warnings="0" inconclusive="3" skipped="0" asserts="1">
+        <properties />
+        <test-suite type="TestFixture" id="0-1000" name="AlexaCloseSessionDuringDayFeature" fullname="RESTAPITest.Stories.AlexaCloseSessionDuringDayFeature" classname="RESTAPITest.Stories.AlexaCloseSessionDuringDayFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.577962" total="1" passed="0" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="Alexa Close session during day" />
+          </properties>
+          <test-case id="0-1001" name="CloseSessionDuringTheDay" fullname="RESTAPITest.Stories.AlexaCloseSessionDuringDayFeature.CloseSessionDuringTheDay" methodname="CloseSessionDuringTheDay" classname="RESTAPITest.Stories.AlexaCloseSessionDuringDayFeature" runstate="Runnable" seed="1559226359" result="Inconclusive" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.185302" asserts="0">
+            <properties>
+              <property name="Description" value="Close session during the day" />
+              <property name="Category" value="Alexa" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more step definitions are not implemented yet.
+  ClientClosesSession110.GivenAMyAvivaSkillSessionIsOpen()]]></message>
+            </reason>
+            <output><![CDATA[Given a MyAviva skill session is open
+-> pending: ClientClosesSession110.GivenAMyAvivaSkillSessionIsOpen()
+When I say "Alexa stop"
+-> skipped because of previous errors
+Then Alexa will say "Have a good morning"
+-> skipped because of previous errors
+And my session will close
+-> skipped because of previous errors
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1009" name="AlexaResponsesFeature" fullname="RESTAPITest.Stories.AlexaResponsesFeature" classname="RESTAPITest.Stories.AlexaResponsesFeature" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.011271" total="1" passed="0" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="AlexaResponses" />
+          </properties>
+          <test-case id="0-1010" name="IDoNoHaveAPensionPolicyWithAviva" fullname="RESTAPITest.Stories.AlexaResponsesFeature.IDoNoHaveAPensionPolicyWithAviva" methodname="IDoNoHaveAPensionPolicyWithAviva" classname="RESTAPITest.Stories.AlexaResponsesFeature" runstate="Runnable" seed="896216223" result="Inconclusive" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.008997" asserts="0">
+            <properties>
+              <property name="Description" value="I do no have a Pension policy with Aviva" />
+              <property name="Category" value="Alexa" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more step definitions are not implemented yet.
+  GetValueofPensionPolicy88.GivenIDoNotHaveAPensionPolicyWithAvivaOnMDM()]]></message>
+            </reason>
+            <output><![CDATA[Given I do not have a pension policy with Aviva on MDM
+-> pending: GetValueofPensionPolicy88.GivenIDoNotHaveAPensionPolicyWithAvivaOnMDM()
+When I ask Alexa for the value of my pension
+-> skipped because of previous errors
+Then Alexa will tell me that they cannot locate a pension policy for me
+-> skipped because of previous errors
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1004" name="AlexaResponsesForSupportedPensionFeature" fullname="RESTAPITest.Stories.AlexaResponsesForSupportedPensionFeature" classname="RESTAPITest.Stories.AlexaResponsesForSupportedPensionFeature" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.007139" total="1" passed="0" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="Alexa Responses for supported pension" />
+          </properties>
+          <test-case id="0-1005" name="LaunchSkillAndReceivePersonalWelcome" fullname="RESTAPITest.Stories.AlexaResponsesForSupportedPensionFeature.LaunchSkillAndReceivePersonalWelcome" methodname="LaunchSkillAndReceivePersonalWelcome" classname="RESTAPITest.Stories.AlexaResponsesForSupportedPensionFeature" runstate="Runnable" seed="205266848" result="Inconclusive" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:23Z" duration="0.005640" asserts="0">
+            <properties>
+              <property name="Description" value="Launch Skill and receive personal welcome" />
+              <property name="Category" value="Alexa" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more step definitions are not implemented yet.
+  OneSupportedPension142.GivenThisIsTheFirstTimeIAmUsingTheSkill()]]></message>
+            </reason>
+            <output><![CDATA[Given This is the first time I am using the skill
+-> pending: OneSupportedPension142.GivenThisIsTheFirstTimeIAmUsingTheSkill()
+When I open the skill
+-> skipped because of previous errors
+Then I will receive my first-time welcome message
+-> skipped because of previous errors
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1002" name="AlexaResponsesForUnsupportedProductFeature" fullname="RESTAPITest.Stories.AlexaResponsesForUnsupportedProductFeature" classname="RESTAPITest.Stories.AlexaResponsesForUnsupportedProductFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:26Z" duration="2.442319" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="Description" value="Alexa Responses for unsupported product" />
+          </properties>
+          <test-case id="0-1003" name="LaunchSkillAndReceivePersonalWelcomeThatIHaveOneUnsupportedPolicy" fullname="RESTAPITest.Stories.AlexaResponsesForUnsupportedProductFeature.LaunchSkillAndReceivePersonalWelcomeThatIHaveOneUnsupportedPolicy" methodname="LaunchSkillAndReceivePersonalWelcomeThatIHaveOneUnsupportedPolicy" classname="RESTAPITest.Stories.AlexaResponsesForUnsupportedProductFeature" runstate="Runnable" seed="63534362" result="Passed" start-time="2017-08-08 09:08:23Z" end-time="2017-08-08 09:08:26Z" duration="2.439244" asserts="1">
+            <properties>
+              <property name="Description" value="Launch Skill and receive personal welcome that I have one unsupported policy" />
+              <property name="Category" value="Alexa" />
+            </properties>
+            <output><![CDATA[Given I have one policy that is an unsupported product
+-> done: UnsupportedProductOnly143.GivenIHaveOnePolicyThatIsAnUnsupportedProduct() (2.1s)
+And I request Alexa the value of my pension
+-> done: UnsupportedProductOnly143.GivenIRequestAlexaTheValueOfMyPension() (0.0s)
+When I give my correct PIN
+-> done: UnsupportedProductOnly143.WhenIGiveMyCorrectPIN() (0.3s)
+Then I will receive following responses
+  --- table step argument ---
+  | I will be told I have one unsupported policy              |
+  | the product name is "productGroup" is "policyDisplayName" |
+  | have a great morning                                      |
+  | my session will close                                     |
+-> done: UnsupportedProductOnly143.ThenIWillReceiveFollowingResponses(<table>) (0.0s)
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

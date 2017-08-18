@@ -1,0 +1,37 @@
+D:\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console.exe D:\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll /xml=nunit-result.xml
+
+D:\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console D:\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll --result=TestR.xml
+
+D:\RESTBDD\RESTAPITest\RESTAPITest\RESTAPITest.csproj
+
+
+specflow.exe nunitexecution report D:\RESTBDD\RESTAPITest\RESTAPITest\RESTAPITest.csproj /out:MyResult.html
+
+
+D:\RESTBDD\specflow.exe nunitexecutionreport D:\RESTBDD\RESTAPITest\RESTAPITest\
+RESTAPITest.csproj /out:MyResult.html
+
+
+
+
+D:\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console D:\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll --where cat==Alps --result="D:\PankajApps\TestResult.xml;format=nunit3"
+D:\RESTBDD\specflow.exe nunitexecutionreport D:\RESTBDD\RESTAPITest\RESTAPITest\RESTAPITest.csproj /xmltestresult:D:\RESTBDD\TestResult.xml /out:D:\RESTBDD\testresult.html 
+
+
+
+C:\Users\GILLH\.nuget\packages\NUnit.ConsoleRunner\3.6.0\tools\nunit3-console D:\Aviva_AprilRepo\aviva.ukd.customerportal.web\BddTests\bin\UK_MyHealth_Debug\Aviva.UKD.Portal.Bdd.dll --where cat==UKMYHEALTH --result="D:\myhealth\TestResult.xml;format=nunit2"
+
+
+D:\RESTBDD\specflow.exe nunitexecutionreport D:\RESTBDD\RESTAPITest\RESTAPITest\RESTAPITest.csproj /xmltestresult:D:\RESTBDD\TestResult.xml /out:D:\RESTBDD\testresult.html 
+
+
+
+ LoginSteps login = new LoginSteps();
+            string userName = id;
+            userName = userName.Replace(" ", string.Empty);
+            login.LoginWith(userName);
+            CommonUtils.WaitExplicit(10);
+
+
+
+

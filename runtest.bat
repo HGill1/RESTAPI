@@ -1,0 +1,2 @@
+D:\backup\RESTBDD\RESTAPITest\RESTAPITest\bin\nunit3-console D:\backup\RESTBDD\RESTAPITest\RESTAPITest\bin\Debug\RESTAPITest.dll --where cat==Alexa --result="D:\backup\RESTBDD\TestResult.xml;format=nunit3"
+D:\backup\RESTBDD\specflow.exe nunitexecutionreport D:\backup\RESTBDD\RESTAPITest\RESTAPITest\RESTAPITest.csproj /xmltestresult:D:\backup\RESTBDD\TestResult.xml /out:D:\backup\RESTBDD\testresult.html
